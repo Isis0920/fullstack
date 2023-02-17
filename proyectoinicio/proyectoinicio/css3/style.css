@@ -1,0 +1,102 @@
+html
+{
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;}
+
+body
+{font-family: open sans-serif;
+    font-weight: 400;
+    color: #02052f;
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    background-color: #fff;
+    display: block;
+
+}
+:root{
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pinK: #e83e8c;
+    --red: #dc3543;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dar: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --rosita:#f86666A6;
+
+}
+/*1 rem=10px*/
+
+/* h1{
+    color:black;
+    text-align: center;
+    background-color: rgba(248, 102, 102, 0.65);
+    text-transform: uppercase;
+    margin-top: 200px;
+    margin-right: 200px;
+    padding-top: 500px,;padding-bottom: 500px; */
+ /* "h2" es el selector, "color" es la propiedad, "red" es el valor*/
+
+/* h3{
+    padding: 100px;
+    margin: 100px;
+} */
+/* composicion de esto::
+selector (ejem h1)
+ propiedad (ejem color 
+  valor (ejem negro.azul)
+   cierro corchetes*/
+   /* .mando {
+    color: aquamarine;
+   }
+   .goli h3 {
+    background: azure;
+   }
+   .holi p{ text-transform: uppercase;
+   } */
+.banner #zona-centro 
+{font-size: 47px;
+padding: 35px;
+color: #fff;
+color: var(--pinK);
+/* background:rgba(402, 102, 102, 0.65) ; */
+margin-bottom:10px ;
+display: block;
+padding: 35px;
+color: #fff;
+}
+
+.banner .precta 
+{display: block;
+    float: left;}
+
+.banner 
+{background-image: url(../img/banner.png);
+}
+
+.precta
+{vertical-align: middle;
+    border-style: none;
+    overflow: clip;}
+    
+ /* h1{
+
+    }
+    */
+   
