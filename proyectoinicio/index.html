@@ -1,0 +1,237 @@
+<!DOCTYPE html><!--es html5 pero a partir de la ultima version ya no ponen el codigo-->
+<html lang="es">
+<!--el lenguaje de la pagina "es" español-->
+
+<head><!--etiqueta lo que el navegador tiene que entender, el head es lo que no se ve,
+es solo para el navegador-->
+    <meta charset="UTF-8"><!--para que utilice los caracteres especiales, tildes...-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--es informacion de la web-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--informacion de la web-->
+    <title>Fullstacvalen</title> <!--es el titulo de la web, el titulo del sitio para el seo.
+    titulo de la pestaña-->
+    <link rel="preload" href="css3/nomalize.css" as="style">
+    <!--este enlace lo que hace es cargar primero css que la pagina-->
+    <link href="css3/nomalize.css" rel="stylesheet">
+    <!--ejemplo de una mala practica en la hoja de html
+     <style>
+     h2{color: red;}
+    </style>
+        "h1" es el selector, la propiedad es el "color" y el valor "red"-->
+        <!--esta es buena practica que se crea una carpeta de css3 y al poner estos dos codigos hace una pre carga-->
+        <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&family=Kavoon&display=swap" rel="stylesheet"> -->
+        <link rel="preload" href="css3/style.css" as="style">
+    <!--este enlace lo que hace es cargar primero css que la pagina-->
+    <link href="css3/style.css" rel="stylesheet">
+    <!--me dice la relacion entre css3 y html-->
+
+</head>
+<!-- cierre de la etiqueta-->
+
+<body>
+    <!-- todo lo que sea contenido se realiza aca-->
+
+    <header>
+        <!--siempre esta adentro del body, nunca fuera de el -->
+        <section class="container">
+
+        <nav id="text rigth"> <!--en este momento el nav funciona como menu de navegacion-->
+            <a href="url"> <!--etiqueta de contenido, es de boton para un enlace-->
+                Login alumnos
+            </a>
+            <!--el a es un comando de enlace y su funcion se realuza poniendo un url dentro
+             de las comillas-->
+            <a href="url"> <!--la etiqeuta a es para el boton -->
+                Login Empresas
+            </a>
+        </nav>
+
+        <nav id="row">
+            <img src="/img/tuccareradigital.png">
+            <a href="url">
+                cursos
+            </a>
+            <a href="#">
+                Sobre nosotros
+            </a>
+            <a href="#">
+                informate
+            </a>
+        </nav>
+    </section>
+
+    </header>
+    <section >
+
+        <main class="banner">
+
+            <h1 id="zona-centro"> <!--para crear una clase y un nombre dentro de el h1 hay que ponerle un nombre-->
+                Descubre la informacion que te dara la oportunidad de convertirte en un profesional
+            </h1>
+            <!--solo puede haber 
+        un h1 en cada pagina-->
+            <img src="/img/ico-centro.png" class="precta">
+            <a href="https://www.tucarreradigital.es/zona-centro#cursos" class="cta">
+                Ver cursos
+            </a>
+            <img src="img/flechacursos.png"> 
+        </main>
+        <img src="/img/fondosocial.png">
+        <!--etiqueta para poder adjuntar una imagen,para poder seleccional la imagen empezaos poniendo: ../seleccionas la imagen/l imagen deseada y se autorrellena.-->
+        <img src="/img/Logo-Adecco.png">
+    </section>
+
+
+    <section class="goli" >
+
+        <h3>
+            cursos
+        </h3>
+        <h2>
+            cambia tu futuro
+        </h2>
+    </section>
+
+    <section> <!--RECORDATORIO, es una etiqeuta de estrucctura-->
+        <h2>
+            marKtin digital
+        </h2>
+        <h2>
+            programacion de videojuegos, diseño 3d y realidad virtual
+        </h2>
+        <h2>
+            programacion full stacK
+        </h2>
+    </section> <!--RECORDATORIO: es para separar las secciones y este organizada-->
+
+    <section>
+        <h3>
+            ¿TE INTERESA ALGÚN OTRO CURSO EN TU CIUDAD?
+        </h3>
+        <a href="#"> <!--RECORDATORIO, es una etiqueta para un boton y que tenga un enlace-->
+            ¡PÍDENOSLO!
+        </a>
+    </section>
+
+    <section class="holi">
+
+        <h3>
+            ¿para quien son estos cursos?
+        </h3>
+        <h2>
+            Si quieres dar un giro a tu carrera profesional y formarte en profesiones digitales con futuro,
+            este es tu lugar.
+        </h2>
+        <p>
+            Cuando eliges un curso en Tu Carrera Digital, estás dando el paso definitivo hacia las profesiones con más
+            demanda del momento,
+            como Marketing Digital, Desarrollo Web Full Stack y Programación de Videojuegos, Diseño 3D y
+            Realidad Virtual. Nosotros te ofrecemos formación con docentes expertos y contenidos alineados a las
+            necesidades
+            de las empresas. Queremos que saques el máximo partido a estos cursos y que potencies tus posibilidades de
+            encontrar un empleo.
+            <!--"p"etiqueta de parrafo-->
+        </p>
+        <h4>
+            PARA PARTICIPAR, NECESITARÁS ESTAR INSCRITO EN GARANTÍA JUVENIL
+        </h4>
+        <a href="#"> <!--esto es un boton-->
+            DESCARGAR FOTOGRAFÍA ADJUNTA
+        </a>
+        <h3>
+            Descárgate esta infografía en la que te mostramos cómo descargar tu certificado de Garantía Juvenil:
+        </h3>
+        <img src="/img/mayor.png">
+        <!--recuerda, esta etiqueta no tiene cierre, y siempre va fuera de las etiqeutas de contenid peor dentro de la etiqueta de estructura-->
+    </section>
+    <section>
+        <h2>
+            localizaciones
+        </h2>
+
+        <H3>
+            madrid
+        </H3>
+        <p>
+            AVENIDA MANOTERAS 32 28050, MADRID, MADRID.
+        </p>
+        <h3>
+            POZUELO DE ALARCON
+        </h3>
+        <P>
+            CALLE SAN JUAN DE LA CRUZ 2 28223, MADRID, MADRID.
+        </P>
+
+        <h3>
+            MADRID
+        </h3>
+        <P>
+            CALLE SAN SOTERO 3 PLANTA 3ª AULA 31 28037, MADRID, MADRID.
+        </P>
+        <H3>
+            CARBAJOSA DE LA SAGRADA
+        </H3>
+        <P>
+            CALLE SEGUNDA 43 37188, CASTILLA LEÓN, SALAMANCA
+            .</P>
+        <H3> <!--son etiquetas de estructura ya que de h1 a h6 son tirulos principales y titulos no tan resaltables,siendo h1 el mas importate y el unico h1 en los html y siendo el h6 el menos importante-->
+            ALCOBENDAS Y LA MORALEJA
+        </H3>
+        <P>
+            CALLE SORIA 43 28100, MADRID, MADRID.
+        </P>
+        <H3>
+            CONTACTAR
+        </H3>
+        <H2>
+            ¿TIENES DUDAS? HABLA CON NOSOTROS:
+        </H2>
+        <img src="/img/telefono.png"> <!--esta es la imagen descargada en la carpeta iamgen por eso esta en /img/-->
+        <img src="/img/ico-EMAIL.png">
+    </section>
+
+    <br> <!--lo que dice que es un formulario para ello se utiliza esta etiqueta -->
+    <br> <!--esta etiqueta realiza la agrupacion del recuadro -->
+    <legend><!--esta etiqueta realiza el titulo del recuadro donde se encuentra la informacion del recuadro -->
+        Formulario de TU CARRERA DIGITAL
+    </legend><!--esta etiqueta simepre esta adentro de fieldset--><!--cada legen es una fila de recuadros-->
+    <br></br>
+    <label><!--esta etiqueta es visible al uruario dentro del recuadro como un indicador de lo que se debe escribir-->
+        Tu nombre
+    </label>
+    <input type="text" placeholder="Tu nombre"> <!--este codigo permite la escritura dentro del recuadro-->
+    <br></br>
+    <label>
+        Tu apellido
+    </label>
+    <input type="tex" placeholder="Tu apellido"> <!--permite la escritura dentro del recuadro-->
+    <label>
+        Tu gmail
+    </label>
+    <input type="text" placeholder="Tu gmail">
+    <!--permite la escritura en el recuadro-->
+    <!--imput= etiqueta type= tipo de etiqueta placecholder= el complemento que es lo que le indica que debe escribir-->
+    <legend>
+        <br></br><!--es una etiqueta para separar u organizar-->
+        <label>
+            Mensaje
+        </label>
+        <textarea>
+      </textarea>
+    </legend>
+    <label>
+    </label>
+
+    <input type="submit" value="Enviar">
+    </legend>
+    </fieldset>
+    </form>
+
+
+
+
+
+</body>
+
+</html>
