@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"name": "proyecto-personal",
+			"path": "../../proyecto-personal"
+		},
+		{
+			"name": "informacion",
+			"path": ".."
+		},
+		{
+			"name": "valentina-pryini",
+			"path": "../../valentina-pryini"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "informacion"
+	}
+}

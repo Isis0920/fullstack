@@ -1,0 +1,732 @@
+:root {
+   --text-rosa: #f76666;
+   --fond-blanco: #fff;
+   --azulTCD: #02052f;
+   --botoninf: #117a8b;
+   --negrito: #000;
+   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+
+
+html {
+   font-size: 62.5%;
+   font-family: sans-serif;
+}
+
+body {
+   font-size: 16px;
+   font-family: sans-serif;
+   margin: 0px;
+   /*  background-image: linear-gradient(to top, var(--text-rosa)50%, green 100%); para poner le color de fondo en degradado*/
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   line-height: 1.2;
+}
+
+.contenedor {
+   width: 90%;
+   margin-top: 0;
+   margin-right: auto;
+   margin-bottom: 0;
+   margin-left: auto;
+   padding: 0px 15px;
+}
+
+.navprincipal {
+   padding: 15px 0px 15px 0px;
+}
+
+.displayflex {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.login a {
+   color: var(--text-rosa);
+}
+
+.subrayado a:hover {
+   text-decoration: underline;
+}
+
+span {
+   color: var(--text-rosa);
+   padding-left: 0.8rem;
+   padding-left: 0.8rem;
+}
+
+.imagenlogo {
+   padding: 17px 0px 0px 0px;
+}
+
+.navcursos {
+   padding: 0px 0px 0px 0px;
+   margin-top: 1.5rem;
+   display: flex;
+   align-items: center;
+
+}
+
+.margenD25 {
+   margin-right: 25px;
+   font-weight: 700;
+   color: var(--azulTCD);
+}
+
+.informate {
+   background-color: var(--text-rosa);
+   font-weight: 700;
+   color: white;
+   border-radius: 20px;
+   padding: 8px 12px;
+}
+
+.navcursos a {
+   font-size: 1.4rem;
+}
+
+.informate:hover {
+   background-color: var(--botoninf);
+   text-decoration: none !important;
+}
+
+a {
+   text-decoration: none;
+}
+
+.textoszonacentro h1 {
+   background: rgba(402, 102, 102, 0.65);
+   font-size: 4.5rem;
+   color: var(--fond-blanco);
+   margin-bottom: 10px;
+   font-weight: 800;
+   padding: 35px;
+}
+
+.imagenbanner {
+   margin-bottom: 32px;
+   padding-top: 80px;
+   padding-bottom: 250px;
+   margin-bottom: 40px;
+}
+
+main {
+   background-image: url(../img2/11641893944_banner_zona_centro.png);
+   background-size: cover;
+   /*para poner imagen de fondo del texto*/
+   background-repeat: no-repeat;
+   /*no se repite la imagen*/
+   background-position: top left;
+}
+
+.textoszonacentro {
+   width: 65%;
+   position: relative;
+}
+
+h1 {
+   line-height: 4.5rem;
+   font-family: sans-serif;
+}
+
+.textoszonacentro .cta {
+   color: #fff;
+   border: 2px solid #000;
+   bacKground: #000 url(../img2/ico-flecha-derecha-white.png) no-repeat right 20px center;
+   border-radius: 0px;
+   float: right;
+   text-transform: uppercase
+}
+
+.cta {
+   min-height: 50px;
+   font-weight: 700;
+   font-size: 14px;
+   padding: 24px 94px;
+   text-decoration: none;
+   display: inline-block;
+}
+
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+}
+
+.textoszonacentro .precta {
+   display: block;
+   float: left;
+}
+
+.textoszonacentro .cta:hover {
+   color: var(--text-rosa);
+   background: white url(../img2/ico-flecha-derecha-white.png) no-repeat right 20px center;
+   border-color: var(--text-rosa);
+}
+
+/* zona logos de adeco */
+
+.logos {
+   margin-top: -120px;
+   /* margin-left: 60px;
+   margin-right: 60px; */
+}
+
+.engrama {
+   background-color: var(--fond-blanco);
+   display: grid;
+   grid-template-columns: 3fr 1fr;
+   gap: 30px;
+   border-radius: 12px;
+   align-items: center;
+   justify-items: center;
+}
+
+.log-oficiales {
+   width: 100%;
+}
+
+/*cambia tu futuro*/
+
+.sec-cambi {
+   background-color: var(--fond-blanco);
+   display: grid;
+   grid-template-rows: 1fr 1fr;
+   text-align: center;
+   padding-bottom: 50px var(--font-family-sans-serif);
+   text-transform: uppercase;
+   padding-bottom: 50px
+}
+
+.sec-cambi h3 {
+   color: var(--text-rosa);
+   font-size: 17px;
+   line-height: 1.2;
+   padding-top: 40px;
+}
+
+.sec-cambi h2 {
+   font-size: 27px;
+   color: var(--azulTCD);
+   line-height: 1.2;
+}
+
+.sec-cambi strong {
+   font-weight: 800px;
+}
+
+/*cambia tu futuro 2*/
+
+.sec-cambix1 {
+   display: flex;
+   flex: 100%;
+   max-width: 100%;
+   justify-content: center;
+   padding-bottom: 75px;
+}
+
+.a-1 {
+   margin: 0px 15px;
+   border: 1px solid var(--fond-blanco);
+   background-color: var(--text-rosa);
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 14px;
+   font-weight: 550;
+   color: var(--fond-blanco);
+   padding: 10px 24px;
+}
+
+.a-2 {
+   margin-right: 15px;
+   border: 1px solid var(--text-rosa);
+   text-transform: uppercase;
+   text-decoration: none;
+   font-size: 14px;
+   font-weight: 550;
+   color: black;
+   padding: 10px 24px;
+
+}
+
+
+.a-2:hover {
+   background-color: #f76666;
+   color: white;
+}
+
+
+
+
+
+
+/*seccion de linKs y videojuegos*/
+
+
+.imgencursosy {
+   /* width: 100%;
+   max-width: 50%; */
+   gap: 35px;
+   position: relative;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+
+.Marketingdigital {
+
+   background-image: url(../img2/Curso-marketing-digital-centro.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+
+
+
+}
+
+.cursosvideojuegos {
+   background-image: url(../img2/Curso-programacion-videojuegos-centro.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+
+
+}
+
+.programacion {
+   background-image: url(../img2/Curso-programacion-web-full-stack-centro.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.ficha {
+   min-height: 300px;
+   padding: 40px 60px;
+   background-position: right;
+   color: var(--fond-blanco);
+   position: relative;
+
+}
+
+/*botones de las fotos*/
+
+.imgencursosy a {
+   background-color: var(--fond-blanco);
+   color: var(--text-rosa);
+   padding: 20px 44px;
+   font-weight: 700;
+   font-size: 14px;
+   text-decoration: none;
+   position: absolute;
+   bottom: 50px;
+   text-transform: uppercase;
+}
+
+.imgencursosy a:hover {
+   background-color: var(--text-rosa);
+   border: var(--fond-blanco)solid 2px;
+   color: var(--fond-blanco);
+}
+
+/*pregunta antes del video*/
+
+.preguntax {
+   text-align: center;
+   margin: 105px 0px 170px;
+}
+
+.preguntax h3 {
+   margin-bottom: 70px;
+   font-size: 17px;
+   font-weight: bolder;
+}
+
+.boton-az {
+   color: var(--fond-blanco);
+   background-color: var(--text-rosa);
+   font-weight: 700;
+   float: none;
+   padding: 24px 36px;
+   border-radius: 96px;
+   margin-top: 20px;
+   text-transform: uppercase;
+   text-decoration: none;
+}
+
+.boton-az:hover {
+   color: var(--fond-blanco);
+   background-color: var(--azulTCD);
+   text-decoration: underline;
+}
+
+
+
+
+
+/* display: grid;*/
+/*el tamaño y organizacion*/
+/* grid-template-columns: 50% 50%;/*el valor y como se prganizan*/
+/* grid-template-rows: 300px 300px; */
+
+/*abreviacion con grid*/
+/*  grid: 1fr 1fr / 1fr 1fr; */
+/*primero columnas y luego cursos */
+
+
+/*video*/
+
+.conte-video {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin-left: 70px;
+   margin-bottom: 70px;
+
+}
+
+.videx2 {
+   width: 100%;
+   height: 600px;
+}
+
+
+/*despues del video textooo*/
+
+.grid-img {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   margin-bottom: 100px;
+}
+
+.grid-imgxtex1 {
+   line-height: 1.15;
+
+}
+
+.grid-imgxtex1 h3 {
+   color: var(--text-rosa);
+   text-transform: uppercase;
+   font-size: 17px;
+   font-weight: bold;
+   font-weight: 900;
+}
+
+.grid-imgxtex1 h2 {
+   text-transform: lowercase;
+   font-size: 27px;
+   margin-bottom: 22px;
+   font-weight: bolder;
+   font-weight: 900;
+}
+
+.grid-imgxtex1 p {
+   text-transform: lowercase;
+   font-size: 17px;
+   font-weight: 400;
+}
+
+.grid-imgxtex1 h4 {
+   width: 90%;
+   margin-bottom: 20px;
+}
+
+.grid-imgxtex1 a {
+   width: 90%;
+   margin-bottom: 40px;
+}
+
+.flechita {
+   color: var(--text-rosa);
+   margin-bottom: 30px;
+   text-decoration: underline;
+   font-weight: 700;
+}
+
+.descargate {
+   font-weight: bolder;
+   text-transform: lowercase;
+   font-weight: 800;
+   margin-bottom: 50px;
+   max-width: 100%;
+}
+
+.adjuntax {
+   background-color: var(--text-rosa);
+   border: var(--text-rosa)solid 2px;
+   padding: 20px 40px;
+   color: var(--fond-blanco);
+   text-transform: uppercase;
+   min-height: 50px;
+   font-size: 14px;
+   font-weight: bolder;
+}
+
+.adjuntax:hover {
+   background-color: var(--fond-blanco);
+   border: var(--text-rosa)solid 2px;
+   color: var(--text-rosa);
+}
+
+.img-may16 {
+   width: 100%;
+}
+
+/*seccion localizaciones*/
+
+.localizax1 {
+   padding: 90px 0px;
+   background-color: var(--negrito);
+}
+
+/* .rowx2 {
+   -webkit-box-shadow: 37px 37px 35px 0px rgba(255, 0, 255, 1);
+   -moz-box-shadow: 37px 37px 35px 0px rgba(255, 0, 255, 1);
+   box-shadow: 37px 37px 35px 0px rgba(255, 0, 255, 1);
+} */
+
+.tex-blan {
+   color: var(--fond-blanco);
+}
+
+.grid-c {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   column-gap: 30px;
+}
+
+.rowx2 h3 {
+   margin: 0%;
+   padding: 0%;
+}
+
+.rowx2 p {
+   margin-top: 0%;
+}
+
+/* contacto */
+
+
+.contax1 {
+   background-color: var(--text-rosa);
+   padding: 60px 0px 70px 0px;
+}
+
+.contax2 {
+   display: grid;
+   grid-template-rows: 1fr 1fr;
+}
+
+.clase-h3 {
+   color: var(--fond-blanco);
+   font-size: 20px;
+   font-weight: 500;
+   padding-top: 40px;
+   margin: 0px;
+   text-transform: uppercase;
+
+}
+
+.clase-h2 {
+   color: var(--fond-blanco);
+   font-weight: 900;
+   font-size: 27px;
+   text-transform: uppercase;
+   margin-bottom: 35px;
+}
+
+.contax3 {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   column-gap: 30px;
+   margin: 0px -15px 0px -15px;
+   padding-bottom: 60px;
+   width: 100%;
+
+}
+
+.x3-gri {
+   display: grid;
+   grid-template-columns: 1fr 3.5fr;
+   background-color: var(--fond-blanco);
+   border-radius: 10px;
+   padding: 30px;
+
+}
+
+
+.imgg {
+   height: 60px;
+   max-height: 100px;
+   display: flex;
+   align-items: center;
+   margin-left: 10px;
+}
+
+
+.llamanosx {
+   color: var(--azulTCD);
+   font-size: 16px;
+   font-weight: 800;
+   margin-bottom: 5px;
+   margin-left: -10px;
+
+
+}
+
+.teleofnox {
+   text-decoration: none;
+   color: var(--text-rosa);
+   text-transform: lowercase;
+   font-weight: 800;
+   font-size: 14px;
+   margin-left: -10px;
+
+}
+
+
+
+
+@media (min-width:768px)
+
+/*para tablet,pc o mas*/
+   {
+   body {
+      background-color: aqua;
+   }
+
+   .colxl12 {
+      flex: 100%;
+      max-width: 100%;
+      display: flex;
+      justify-content: end;
+   }
+
+   .colxl4 {
+      flex: 33.3%;
+      max-width: 33.3%;
+   }
+
+   .colxl8 {
+      flex: 66.6%;
+      max-width: 66.6%;
+      display: flex;
+      justify-content: end;
+   }
+
+   .colx20 {
+      flex: 100%;
+      max-width: 100%;
+   }
+
+}
+
+
+@media(max-width:768px)
+
+/*para moviles*/
+   {
+   body {
+      background-color: red;
+   }
+
+   /* header */
+
+   .colsm12 {
+      flex: 100%;
+      max-width: 100%;
+      display: flex;
+      justify-content: end;
+   }
+
+   /* main */
+   .colx20 {
+      flex: 100%;
+      max-width: 100%;
+   }
+
+   .descu-te {
+      font-weight: 400px;
+   }
+
+   .textoszonacentro h1 {
+      font-size: 4.5rem;
+      font-weight: 700;
+   }
+
+   /* section logos adeco/oficiales */
+
+
+   .engrama {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
+      align-items: center;
+      justify-items: center;
+   }
+
+
+   /* 3 imagenes de los cursos */
+
+
+
+   .imgencursosy {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+   }
+
+
+
+
+   /* seccion de contactos e informacion */
+
+   .contax3 {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
+   }
+
+   /* para quien son los cursos
+   informacion e imagen */
+
+   .grid-img {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
+      max-width: 100%;
+
+   }
+
+   /* antes del footer localixaciones */
+
+   .grid-c {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+
+   }
+
+
+}
+
+/* ejercicio dar, tres filas a el texto debajo
+de los contactos */
+
+
+
+/*    movil
+@media (max-width:480px) {
+
+   body {
+      background-color: red;
+   }
+}
+        ordenadores
+@media (min-width:1140px) {
+   body {
+      background-color: blue;
+   }
+} */
